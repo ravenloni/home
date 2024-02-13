@@ -67,7 +67,26 @@ section img{
 }
 
 @media (max-width:400px){
-    .container{
+    .container {
         width: 100%;
     }
-  }
+
+    section {
+        flex-direction: column;
+    }
+
+    .link {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    section img {
+        width: 40%;
+        margin: 10px auto;
+    }
+
+    .intro img {
+        width: 50%;
+    }
+
+}
