@@ -57,6 +57,11 @@ svg {
     margin: auto;
     width: 30%;
 }
+@media screen and (max-width: 768px) {
+    .container {
+        width: 98%;
+    }
+}
 
 @media (max-width:400px){
     .container {
