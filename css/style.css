@@ -57,37 +57,11 @@ svg {
     margin: auto;
     width: 30%;
 }
-@media screen and (max-width: 768px) {
-    .container {
-        width: 98%;
-    }
-}
 
-@media (max-width:400px){
+@media (max-width:780px){
     .container {
-        margin-top: 20%;
-        width: 90%;
-        display: flex;
+        width: 95%;
         height: 100vh;
-    }
-
-    section {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .link {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    section img {
-        width: 40%;
-        margin: 10px auto;
-    }
-
-    .intro img {
-        width: 60%;
     }
 
 }
