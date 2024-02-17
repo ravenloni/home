@@ -61,10 +61,13 @@ svg {
     .container {
         width: 95%;
     }
-    .intro img {
-        border: 0.8vh solid #2b124c;
-    }
     section{
-        border: 0.3vh solid #854f6c;
-    }
+    border: 0.4vh solid #854f6c;
+    border-radius:20px;
+    background-color: #dfb7b3;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin: 10px 0px;
+   }
 }
