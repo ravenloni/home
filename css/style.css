@@ -57,11 +57,14 @@ svg {
     margin: auto;
     width: 30%;
 }
-
-@media (max-width:780px){
+@media screen and (max-width:800px){
     .container {
         width: 95%;
-        height: 100vh;
     }
-
+    .intro img {
+        border: 0.8vh solid #2b124c;
+    }
+    section{
+        border: 0.3vh solid #854f6c;
+    }
 }
