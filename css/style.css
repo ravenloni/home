@@ -63,5 +63,14 @@ svg {
         width: 95%;
         height: 100vh;
     }
+   section{
+    border: 0.4vh solid #854f6c;
+    border-radius:20px;
+    background-color: #dfb7b3;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin: 10px 0px;
+   }
 
 }
