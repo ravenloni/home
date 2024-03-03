@@ -6,17 +6,15 @@ body{
     padding: 0;
 }
 .container {
-    width: 60%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-  }
+}
 h2{
     border-top: 20px;
     color: #fbe4d8;
 }
 section{
-    border: 0.8vh solid #854f6c;
     border-radius:20px;
     background-color: #dfb7b3;
     display: flex;
@@ -57,17 +55,28 @@ svg {
     margin: auto;
     width: 30%;
 }
-@media screen and (max-width:800px){
+
+@media (min-width: 300px){
     .container {
         width: 95%;
     }
     section{
-    border: 0.4vh solid #854f6c;
-    border-radius:20px;
-    background-color: #dfb7b3;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0px;
-    margin: 10px 0px;
+        border: 0.4vh solid #854f6c;
+        border-radius:20px;
+        background-color: #dfb7b3;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px;
+        margin: 10px 0px;
    }
+}
+@media (min-width: 1024px){
+    
+    .container {
+        width: 60%;
+    }
+    
+    section{
+        border: 0.8vh solid #854f6c;
+    }
 }
