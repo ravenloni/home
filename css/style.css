@@ -5,7 +5,7 @@ section{
     background-color: #dfb7b3;
     display: flex;
     justify-content: center;
-    padding: 20px 0px;
+    padding: 15px 0px;
     margin: 10px 0px;
 }
 body{
@@ -47,7 +47,7 @@ h2{
 }
 section h2{
     color: #2b124c;
-    font-size: 40px;
+    font-size: 16px;
 }
 section a{
     text-decoration: none;
