@@ -1,6 +1,6 @@
 
 
-@media (min-width: 300px){
+@media (max-width: 1000px){
     .container {
         width: 95%;
     }
@@ -76,7 +76,7 @@
         width: 30%;
     }
 }
-@media (min-width: 1024px){
+@media (min-width: 1000px){
     body{
         justify-content: start;
     }
